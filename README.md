@@ -1,4 +1,4 @@
-# Auflistung der Programme
+# Application list
 
 | Name | Beschreibung |
 |---|---|
