@@ -9,8 +9,8 @@ services:
       - PGID=1000
       - TZ=Europe/Berlin
     volumes:
-      - CHANGEME:/config
-      - CHANGEME:/gallery
+      - CONFIGDIR:/config
+      - GALLERYDIR:/gallery
     ports:
       - CUSTOMPORT:80
     restart: unless-stopped
