@@ -6,7 +6,7 @@ DIRG="$DIR/gallery"
 COMP="$DIR/docker-compose.yml"
 
 if [ -d "$DIR" ]; then
-	echo "$DIR" already exists. Contact Daklyrus.
+	echo "$DIR" already exists.
 else
 	# Create piwigo directory as parent directory and {config,gallery} as subdirectory
 	echo "Creating folders"
