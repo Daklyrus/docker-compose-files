@@ -10,10 +10,10 @@ if [ -d "$DIR" ]; then
 else
 	# Create piwigo directory as parent directory and {config,gallery} as subdirectory
 	echo "Creating folders"
-  mkdir "$DIR"
+	mkdir "$DIR"
 	mkdir "$DIRC"
 	mkdir "$DIRG"
-  echo "DONE"
+	echo "DONE"
 
 	# Download the docker-compose.yml
 	wget "$URL" && mv docker-compose.yml* "$DIR/docker-compose.yml"
@@ -24,10 +24,10 @@ else
 
 	# Write port and paths in docker-compose.yml
 	echo "Writing variables"
-  sed -i "s+CUSTOMPORT+$PORTP+g" "$COMP"
+	sed -i "s+CUSTOMPORT+$PORTP+g" "$COMP"
 	sed -i "s+CONFIGDIR+$DIRC+g" "$COMP"
 	sed -i "s+GALLERYDIR+$DIRG+g" "$COMP"
-  echo "DONE"
+	echo "DONE"
   
 	# Start the Container
 	docker compose -f "$COMP" up -d
