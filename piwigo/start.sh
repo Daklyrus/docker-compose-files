@@ -31,4 +31,7 @@ else
   
 	# Start the Container
 	docker compose -f "$COMP" up -d
+	
+	# Remove the start.sh after execution
+	rm start.sh
 fi
