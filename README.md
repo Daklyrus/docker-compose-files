@@ -2,7 +2,7 @@
 
 | Name | Beschreibung |
 |---|---|
-| Piwigo | web photo gallery |
-| Portainer | web docker management |
+| Piwigo | photo gallery |
+| Portainer | docker management |
 | DokuWiki | wiki |
-| Papermerge | web based document managemend system |
+| Papermerge | document managemend system |
