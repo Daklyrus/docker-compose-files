@@ -1,3 +1,5 @@
+# wiki entry: https://github.com/Daklyrus/docker-compose-files/wiki/Wiki#portainer
+
 version: '3.9'
 
 services:
