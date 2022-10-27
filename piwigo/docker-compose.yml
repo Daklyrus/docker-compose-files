@@ -1,3 +1,5 @@
+#wiki entry: https://github.com/Daklyrus/docker-compose-files/wiki/Wiki#piwigo
+
 version: "2.1"
 
 services:
