@@ -1,3 +1,5 @@
+# wiki entry: https://github.com/Daklyrus/docker-compose-files/wiki/Wiki/_edit#dokuwiki
+
 version: "2.1"
 services:
   dokuwiki:
